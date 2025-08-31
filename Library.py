@@ -38,12 +38,12 @@ class Book:
     def is_available(self):
         return self.__availability
 
-# Initialize some books manually
+#Initializing some books manually
 book1 = Book("1", "A", "Abc")
 book2 = Book("2", "B", "aBc")
 book3 = Book("3", "C", "abC")
 
-# Menu system
+#Menu system
 def main():
     while True:
         print("\n=== Library Management System ===")
@@ -101,4 +101,5 @@ def main():
             print("Invalid choice. Please enter a number between 1-4.")
 
 if __name__ == "__main__":
+
     main()
